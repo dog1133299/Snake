@@ -1,0 +1,62 @@
+body {
+    background-color: darkgreen;
+}
+
+.disp {
+    position: relative;
+    width: 525px;
+    height: 525px;
+    margin: 0 auto;
+    top: 36px;
+    border: 5px solid green;
+    background-color: #b8e62e;
+}
+.msg {
+    width: 100%;
+    height: 270px;
+    position: absolute;
+    top: 120px;
+    background-color: rgba(0,0,0,0.5);
+}
+.msg.none {
+    display: none;
+}
+.msg-a, .msg-b {
+    text-align: center;
+    color: yellow;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 4px 2px grey;
+}
+.msg-a {
+    height: 140px;
+    line-height: 140px;
+    font-size: 70px;
+}
+.msg-b {
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+}
+.pixel{
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-color:rgb(150,250,150); 
+}
+
+.pixel.white {
+    background-color: rgb(200,250,200);
+}
+.pixel.taken {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border: 7.5px solid pink;
+}
+.pixel.coin {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border: 7.5px solid red;
+}
