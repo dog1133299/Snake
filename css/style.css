@@ -9,7 +9,7 @@ body {
     margin: 0 auto;
     top: 36px;
     border: 5px solid green;
-    background-color: #b8e62e;
+    background-color:rgb(150,220,150);
 }
 .msg {
     width: 100%;
@@ -42,21 +42,24 @@ body {
     width: 35px;
     height: 35px;
     float: left;
-    background-color:rgb(150,250,150); 
+    background-color:rgb(150,220,150); 
 }
 
 .pixel.white {
     background-color: rgb(200,250,200);
 }
 .pixel.taken {
-    background-color: white;
+    background-color: rgb(200,200,250);
     width: 20px;
     height: 20px;
-    border: 7.5px solid pink;
+    border: 7.5px solid rgb(150,150,250);
+    border-radius:15px;
 }
+ 
 .pixel.coin {
     background-color: white;
-    width: 20px;
-    height: 20px;
-    border: 7.5px solid red;
+    width: 15px;
+    height: 15px;
+    border: 10px solid red;
+    border-radius:20px;
 }
