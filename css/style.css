@@ -21,7 +21,7 @@ body {
 .msg.none {
     display: none;
 }
-.msg-a, .msg-b {
+.msg-a, .msg-b ,.msg-c {
     text-align: center;
     color: yellow;
     font-family: sans-serif;
@@ -37,6 +37,11 @@ body {
     height: 60px;
     line-height: 60px;
     font-size: 30px;
+}
+.msg-c {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
 }
 .pixel{
     width: 35px;
