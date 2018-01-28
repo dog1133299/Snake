@@ -1,4 +1,7 @@
 body {
+    background-image: url('src/BG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: darkgreen;
 }
 
@@ -8,8 +11,8 @@ body {
     height: 525px;
     margin: 0 auto;
     top: 36px;
-    border: 5px solid green;
-    background-color:rgb(150,220,150);
+    border: 5px solid rgb(0,0,0);
+    background-color:rgba(150,220,150,0.5);
 }
 .msg {
     width: 100%;
@@ -23,10 +26,10 @@ body {
 }
 .msg-a, .msg-b {
     text-align: center;
-    color: yellow;
+    color: white;
     font-family: sans-serif;
     font-weight: bold;
-    text-shadow: 4px 2px grey;
+    text-shadow: 2px 2px grey;
 }
 .msg-a {
     height: 140px;
@@ -42,18 +45,18 @@ body {
     width: 35px;
     height: 35px;
     float: left;
-    background-color:rgb(150,220,150); 
+    background-color:rgba(250,0,0,0.1); 
 }
 
 .pixel.white {
-    background-color: rgb(200,250,200);
+    background-color: rgba(250,250,250,0.1);
 }
 .pixel.taken {
-    background-color: rgb(200,200,250);
+    background-color:rgb(250,250,250); 
     width: 20px;
     height: 20px;
-    border: 7.5px solid rgb(150,150,250);
-    border-radius:15px;
+    border: 7.5px solid rgb(0,0,0);
+    border-radius: 8px;
 }
  
 .pixel.coin {
