@@ -1,4 +1,6 @@
 "use strict";
+
+console.log('尚未修復Game bug:快速按不同方向的兩鍵會導致Game over');
 var disp = $('.disp'),
     msg = $('.msg');
 
